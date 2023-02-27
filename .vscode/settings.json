@@ -1,0 +1,81 @@
+{
+  "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "liveServer.settings.host": "192.168.43.180",
+  "editor.mouseWheelZoom": true,
+"window.zoomLevel": 0,
+  "typescript.tsdk": "",
+  // "editor.codeActionsOnSave": null,
+  "launch": {
+      "configurations": [],
+      "compounds": []
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.tabs.enabled": false,
+  "easysass.formats": [
+      {
+          "format": "expanded",
+          "extension": ".css"
+      },
+      {
+          "format": "compressed",
+          "extension": ".min.css"
+      }
+  ],
+  "gitlens.codeLens.scopes": [
+      "document",
+      "containers",
+      "blocks"
+  ],
+  "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+          "wrap_line_length": 240,
+          "wrap_attributes": "auto",
+          "end_with_newline": false
+      },
+      "prettyhtml": {
+          "printWidth": 100,
+          "singleQuote": false,
+          "wrapAttributes": false,
+          "sortAttributes": false
+      }
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "typescript.locale": "zh-CN",
+  // #每次保存的时候将代码按eslint格式进行修复
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+      "configFile": "./.eslintrc.js",
+      "extensions": [
+          "html",
+          ".js",
+          ".vue"
+      ]
+  },
+  "eslint.validate": [
+      "javascript",
+      // 添加 vue 支持
+      {
+          "language": "vue",
+          "autoFix": true
+      },
+      // 添加 html 支持
+      {
+          "language": "html",
+          "autoFix": true
+      }
+  ],
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+},
+"editor.guides.indentation": false,
+}
